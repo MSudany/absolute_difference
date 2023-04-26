@@ -13,9 +13,11 @@
 	//Output: absolute diagonal differnce of the matrix a
 
 	for i <- 0 to size do
-	first_diagonal <- first_diagonal + a[i][i]
+		first_diagonal <- first_diagonal + a[i][i]
+	
 	for i <- size - 1 to 0 do
-	second_diagonal <- second_diagonal + a[i][size - i - 1]
+		second_diagonal <- second_diagonal + a[i][size - i - 1]
+	
 	difference = first_diagonal - second_diagonal
 	return abs(difference)
 
@@ -31,7 +33,8 @@
 	//Output: absolute diagonal differnce of the matrix a
 
 	for i <- 0 to size do
-	first_diagonal <- first_diagonal + a[i][i]
-	second_diagonal <- second_diagonal + a[size - i - 1][i]
+		first_diagonal <- first_diagonal + a[i][i]
+		second_diagonal <- second_diagonal + a[size - i - 1][i]
+	
 	difference = first_diagonal - second_diagonal
 	return abs(difference)
