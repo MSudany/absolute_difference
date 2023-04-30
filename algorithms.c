@@ -13,7 +13,7 @@ unsigned int diagonal_difference_1(int **a, int size)
 			if (i == j)
 				d1 += a[i][j];
 
-			if (i == n - j - 1)
+			if (i == size - j - 1)
 				d2 += a[i][j];
 		}
 	}
