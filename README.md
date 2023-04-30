@@ -4,7 +4,7 @@
 
 **Step 1** Use two nested loops to iterate on matrix elements. <br>
 **Step 2** If counters match add the value at the array index to first diagonal sum. <br>
-	 If first counter matches the operation (size - second counter - 1) add the value at the array index to second diagonal sum. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; If first counter matches the operation (size - second counter - 1) add the value at the array index to second diagonal sum. <br>
 **Step 3** Find the difference between first diagonal and the second diagonal. <br>
 **Step 4** Return the absolute value of the difference.
 
